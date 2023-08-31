@@ -1,0 +1,23 @@
+{
+  "name": "conding-dojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvicenzo/coding-dojo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvicenzo/coding-dojo/issues"
+  },
+  "homepage": "https://github.com/rvicenzo/coding-dojo#readme",
+  "dependencies": {
+    "jest": "^29.6.4"
+  }
+}
