@@ -11,5 +11,13 @@ describe("FAIL", () => {
     const value = 50;
     expect(value).toBe([10,20,20])
   });
+
+  it("deverá retornar sacar o valor correto", () => {
+    const inputValue = 300;
+    const notes = [10,20,50,100]
+    const check = checkValue(inputValue)
+
+    expect(check).toBeTruthy()
+  });
   
 });
