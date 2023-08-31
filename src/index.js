@@ -18,7 +18,13 @@ function checkValue(value) {
   return check;
 }
 
+function modValue (value) {
+  if(value % 2 === 0) return true
+  return false
+}
+
 module.exports = {
   insertValue,
   checkValue,
+  modValue,
 };

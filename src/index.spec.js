@@ -1,4 +1,4 @@
-const { insertValue, checkValue } = require("./index");
+const { insertValue, checkValue, modValue } = require("./index");
 
 describe("FAIL", () => {
   it("Receber valor de entrada", () => {
@@ -21,7 +21,13 @@ describe("FAIL", () => {
 
   it("deverá retornar false se o valor não for inteiro", () => {
     const inputValue = 12.50;
-    const check = outValue(inputValue);
+    const check = modValue(inputValue);
+    expect(check).toBe(false);
+  });
+
+  it("deverá retornar true se o valor for inteiro", () => {
+    const inputValue = 12.50;
+    const check = modValue(inputValue);
     expect(check).toBe(false);
   });
 
